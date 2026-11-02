@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Portfolio of Ganesh Reddy Yaramala - Aspiring Full Stack Developer and AI enthusiast specializing in modern web applications and machine learning.">
+    <title>Ganesh Reddy Yaramala | Full Stack Developer & AI Enthusiast</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header & Navigation -->
+    <header class="site-header" id="header">
+        <div class="container nav-container">
+            <a href="#home" class="logo" aria-label="Ganesh Reddy Yaramala Portfolio Home">
+                <span class="logo-text">Ganesh<span class="logo-dot">.</span></span>
+            </a>
+
+            <!-- Desktop & Mobile Navigation Links -->
+            <nav class="nav-menu" id="nav-menu" aria-label="Main Navigation">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <!-- Header Actions: Theme Toggle & Mobile Menu Button -->
+            <div class="header-actions">
+                <button id="theme-toggle" class="icon-btn" aria-label="Toggle dark mode" title="Toggle theme">
+                    <!-- Sun Icon (shown in dark mode) -->
+                    <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" aria-hidden="true">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                    <!-- Moon Icon (shown in light mode) -->
+                    <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" aria-hidden="true">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                </button>
+
+                <button id="mobile-toggle" class="icon-btn mobile-menu-btn" aria-label="Toggle navigation menu"
+                    aria-expanded="false" aria-controls="nav-menu">
+                    <span class="hamburger-bar"></span>
+                    <span class="hamburger-bar"></span>
+                    <span class="hamburger-bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="section hero-section">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="status-badge">
+                        <span class="status-dot"></span>
+                        <span>Available for Internship Opportunities</span>
+                    </div>
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="gradient-text">Ganesh Reddy Yaramala</span>
+                    </h1>
+                    <p class="hero-subtitle">
+                        Computer Science Student &bull; Aspiring Full Stack Developer &bull; AI Enthusiast
+                    </p>
+                    <p class="hero-description">
+                        Aspiring Full Stack Developer and AI enthusiast passionate about building modern web
+                        applications and intelligent solutions.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#projects" class="btn btn-primary">
+                            View Projects
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" aria-hidden="true">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                <polyline points="12 5 19 12 12 19"></polyline>
+                            </svg>
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            Contact Me
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Attractive CSS Visual Element: Interactive Developer Snapshot Card -->
+                <div class="hero-visual" aria-hidden="true">
+                    <div class="code-card">
+                        <div class="code-card-header">
+                            <div class="window-controls">
+                                <span class="dot red"></span>
+                                <span class="dot yellow"></span>
+                                <span class="dot green"></span>
+                            </div>
+                            <span class="code-filename">ganesh_profile.py</span>
+                        </div>
+                        <pre
+                            class="code-card-body"><code><span class="token-keyword">class</span> <span class="token-class">Developer</span>:
+    <span class="token-keyword">def</span> <span class="token-function">__init__</span>(<span class="token-param">self</span>):
+        <span class="token-param">self</span>.name = <span class="token-string">"Ganesh Reddy Yaramala"</span>
+        <span class="token-param">self</span>.focus = [<span class="token-string">"Full Stack"</span>, <span class="token-string">"AI/ML"</span>]
+        <span class="token-param">self</span>.passion = <span class="token-string">"Solving real-world problems"</span>
+        <span class="token-param">self</span>.status = <span class="token-string">"Ready to contribute"</span>
+
+    <span class="token-keyword">def</span> <span class="token-function">build_impact</span>(<span class="token-param">self</span>):
+        <span class="token-keyword">return</span> <span class="token-string">"Clean Code & Intelligent Systems"</span></code></pre>
+                        <div class="code-card-footer">
+                            <span class="badge-mini">Python</span>
+                            <span class="badge-mini">JavaScript</span>
+                            <span class="badge-mini">AI / ML</span>
+                        </div>
+                    </div>
+                    <div class="glow-orb glow-orb-1"></div>
+                    <div class="glow-orb glow-orb-2"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section about-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">About Me</span>
+                    <h2 class="section-title">Background & Academic Journey</h2>
+                    <div class="section-divider"></div>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-card main-bio">
+                        <h3 class="about-subtitle">Computer Science Student specializing in AI & Machine Learning</h3>
+                        <p>
+                            I am an undergraduate Computer Science student with a dedicated specialization in Artificial
+                            Intelligence and Machine Learning. My academic and practical journey is centered on bridging
+                            the gap between intelligent algorithms and robust, user-friendly software applications.
+                        </p>
+                        <p>
+                            I have developed a strong passion for Full Stack Development alongside AI and Machine
+                            Learning. By mastering foundational programming concepts and exploring modern web stacks, I
+                            enjoy architecting applications that solve practical, real-world problems—from precision
+                            agriculture to nutrition intelligence.
+                        </p>
+                        <p>
+                            As a continuous learner, I actively work on software development projects, write clean and
+                            maintainable code, and explore new advancements across cloud backends, frontend interfaces,
+                            and artificial intelligence models.
+                        </p>
+                    </div>
+
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <div class="highlight-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" aria-hidden="true">
+                                    <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                                    <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                                </svg>
+                            </div>
+                            <div class="highlight-content">
+                                <h4>Academic Specialization</h4>
+                                <p>Computer Science Engineering focused on Artificial Intelligence & Machine Learning.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="highlight-item">
+                            <div class="highlight-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" aria-hidden="true">
+                                    <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                                    <polyline points="2 17 12 22 22 17"></polyline>
+                                    <polyline points="2 12 12 17 22 12"></polyline>
+                                </svg>
+                            </div>
+                            <div class="highlight-content">
+                                <h4>Full Stack Engineering</h4>
+                                <p>Passionate about crafting accessible, responsive frontends and functional backend
+                                    architectures.</p>
+                            </div>
+                        </div>
+
+                        <div class="highlight-item">
+                            <div class="highlight-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" aria-hidden="true">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <path d="M8 14s1.5 2 4 2 4-2 4-2"></path>
+                                    <line x1="9" y1="9" x2="9.01" y2="9"></line>
+                                    <line x1="15" y1="9" x2="15.01" y2="9"></line>
+                                </svg>
+                            </div>
+                            <div class="highlight-content">
+                                <h4>Real-World Problem Solving</h4>
+                                <p>Committed to continuous learning, building practical solutions, and collaborating on
+                                    meaningful tech.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section skills-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Technical Competencies</span>
+                    <h2 class="section-title">Skills & Learning Areas</h2>
+                    <p class="section-lead">A summary of my core programming foundations, web technologies, and ongoing
+                        exploration in intelligent systems.</p>
+                    <div class="section-divider"></div>
+                </div>
+
+                <div class="skills-grid">
+                    <!-- Programming Category -->
+                    <article class="skill-category-card">
+                        <div class="skill-category-header">
+                            <div class="category-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" aria-hidden="true">
+                                    <polyline points="16 18 22 12 16 6"></polyline>
+                                    <polyline points="8 6 2 12 8 18"></polyline>
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="category-title">Programming Languages</h3>
+                                <span class="category-subtitle">Foundational & object-oriented programming</span>
+                            </div>
+                        </div>
+                        <p class="category-description">Core languages utilized for software development, data
+                            structures, and algorithmic logic.</p>
+                        <ul class="skill-badge-list">
+                            <li class="skill-badge">Python</li>
+                            <li class="skill-badge">Java</li>
+                            <li class="skill-badge">JavaScript</li>
+                            <li class="skill-badge">C++</li>
+                        </ul>
+                    </article>
+
+                    <!-- Web Development Category -->
+                    <article class="skill-category-card">
+                        <div class="skill-category-header">
+                            <div class="category-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" aria-hidden="true">
+                                    <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                                    <line x1="8" y1="21" x2="16" y2="21"></line>
+                                    <line x1="12" y1="17" x2="12" y2="21"></line>
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="category-title">Web Development</h3>
+                                <span class="category-subtitle">Frontend & backend web technologies</span>
+                            </div>
+                        </div>
+                        <p class="category-description">Tools and frameworks practiced for building responsive, dynamic,
+                            and interactive user interfaces.</p>
+                        <ul class="skill-badge-list">
+                            <li class="skill-badge">HTML5</li>
+                            <li class="skill-badge">CSS3</li>
+                            <li class="skill-badge">JavaScript</li>
+                            <li class="skill-badge">React</li>
+                            <li class="skill-badge">Node.js</li>
+                        </ul>
+                    </article>
+
+                    <!-- AI & Machine Learning Category -->
+                    <article class="skill-category-card">
+                        <div class="skill-category-header">
+                            <div class="category-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" aria-hidden="true">
+                                    <path
+                                        d="M12 2a4 4 0 0 0-4 4v2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8a2 2 0 0 0-2-2h-2V6a4 4 0 0 0-4-4z">
+                                    </path>
+                                    <circle cx="9" cy="14" r="1"></circle>
+                                    <circle cx="15" cy="14" r="1"></circle>
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="category-title">AI & Machine Learning</h3>
+                                <span class="category-subtitle">Intelligent models & prototyping</span>
+                            </div>
+                        </div>
+                        <p class="category-description">Specialized study areas focused on machine learning models,
+                            intelligent APIs, and interactive UI dashboards.</p>
+                        <ul class="skill-badge-list">
+                            <li class="skill-badge">Artificial Intelligence</li>
+                            <li class="skill-badge">Machine Learning</li>
+                            <li class="skill-badge">Streamlit</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section projects-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Featured Work</span>
+                    <h2 class="section-title">Projects</h2>
+                    <p class="section-lead">A selection of academic and personal projects demonstrating application
+                        development and AI integration.</p>
+                    <div class="section-divider"></div>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Project 1: Smart Crop Recommendation System -->
+                    <article class="project-card">
+                        <div class="project-header">
+                            <div class="project-type-tag">Agriculture & ML</div>
+                            <h3 class="project-title">Smart Crop Recommendation System</h3>
+                        </div>
+                        <div class="project-body">
+                            <p class="project-description">
+                                An agriculture-focused application that helps users identify suitable crops based on
+                                agricultural input parameters. It uses machine learning models to analyze soil and
+                                environmental factors to guide productive planting decisions.
+                            </p>
+                            <div class="project-tech-wrapper">
+                                <span class="tech-label">Technologies:</span>
+                                <div class="tech-tags">
+                                    <span class="tech-tag">Python</span>
+                                    <span class="tech-tag">Machine Learning</span>
+                                    <span class="tech-tag">Streamlit</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-footer">
+                            <!-- Clear placeholders per specification guidelines -->
+                            <a href="#" class="btn btn-outline btn-project-link disabled-link" aria-disabled="true"
+                                data-tooltip="GitHub repository link will be updated soon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" aria-hidden="true">
+                                    <path
+                                        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                                    </path>
+                                </svg>
+                                GitHub (Pending Upload)
+                            </a>
+                            <span class="badge-placeholder">Demo: In Prototyping</span>
+                        </div>
+                    </article>
+
+                    <!-- Project 2: MacroSnap -->
+                    <article class="project-card">
+                        <div class="project-header">
+                            <div class="project-type-tag">Computer Vision & AI</div>
+                            <h3 class="project-title">MacroSnap</h3>
+                        </div>
+                        <div class="project-body">
+                            <p class="project-description">
+                                An AI-powered application designed to analyze food and provide calorie and nutritional
+                                information. Leverages the Google Gemini multimodal API to inspect food images and
+                                present structured dietary estimates.
+                            </p>
+                            <div class="project-tech-wrapper">
+                                <span class="tech-label">Technologies:</span>
+                                <div class="tech-tags">
+                                    <span class="tech-tag">Python</span>
+                                    <span class="tech-tag">Streamlit</span>
+                                    <span class="tech-tag">Google Gemini API</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-footer">
+                            <!-- Clear placeholders per specification guidelines -->
+                            <a href="#" class="btn btn-outline btn-project-link disabled-link" aria-disabled="true"
+                                data-tooltip="GitHub repository link will be updated soon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" aria-hidden="true">
+                                    <path
+                                        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                                    </path>
+                                </svg>
+                                GitHub (Pending Upload)
+                            </a>
+                            <span class="badge-placeholder">Demo: In Prototyping</span>
+                        </div>
+                    </article>
+
+                    <!-- Project 3: SmartFarmAI -->
+                    <article class="project-card">
+                        <div class="project-header">
+                            <div class="project-type-tag">Full Stack & AgTech</div>
+                            <h3 class="project-title">SmartFarmAI</h3>
+                        </div>
+                        <div class="project-body">
+                            <p class="project-description">
+                                An AI-powered agriculture application focused on crop health analysis and supporting
+                                farmers with intelligent agricultural insights. Engineered with a FastAPI microservice,
+                                Supabase cloud database, and mobile client interface.
+                            </p>
+                            <div class="project-tech-wrapper">
+                                <span class="tech-label">Technologies:</span>
+                                <div class="tech-tags">
+                                    <span class="tech-tag">Python</span>
+                                    <span class="tech-tag">FastAPI</span>
+                                    <span class="tech-tag">React Native</span>
+                                    <span class="tech-tag">Supabase</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-footer">
+                            <!-- Clear placeholders per specification guidelines -->
+                            <a href="#" class="btn btn-outline btn-project-link disabled-link" aria-disabled="true"
+                                data-tooltip="GitHub repository link will be updated soon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" aria-hidden="true">
+                                    <path
+                                        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                                    </path>
+                                </svg>
+                                GitHub (Pending Upload)
+                            </a>
+                            <span class="badge-placeholder">Demo: In Prototyping</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Get In Touch</span>
+                    <h2 class="section-title">Connect & Collaborate</h2>
+                    <p class="section-lead">Feel free to reach out regarding internship opportunities, project
+                        collaborations, or inquiries.</p>
+                    <div class="section-divider"></div>
+                </div>
+
+                <div class="contact-grid">
+                    <!-- Contact Channels Info -->
+                    <div class="contact-info-panel">
+                        <h3 class="contact-panel-title">Contact Information</h3>
+                        <p class="contact-panel-desc">
+                            I am actively seeking internship roles in Full Stack Development and AI/ML engineering.
+                            Let's connect!
+                        </p>
+
+                        <div class="contact-cards-list">
+                            <!-- LinkedIn Profile (Actual Link) -->
+                            <a href="https://www.linkedin.com/in/ganesh-reddy-yaramala-495189356/" target="_blank"
+                                rel="noopener noreferrer" class="contact-channel-card">
+                                <div class="channel-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" aria-hidden="true">
+                                        <path
+                                            d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                                        </path>
+                                        <rect x="2" y="9" width="4" height="12"></rect>
+                                        <circle cx="4" cy="4" r="2"></circle>
+                                    </svg>
+                                </div>
+                                <div class="channel-info">
+                                    <span class="channel-label">LinkedIn</span>
+                                    <span class="channel-value">ganesh-reddy-yaramala-495189356</span>
+                                </div>
+                                <span class="channel-arrow" aria-hidden="true">&rarr;</span>
+                            </a>
+
+                            <!-- GitHub Profile (Actual Link) -->
+                            <a href="https://github.com/YaramalaGaneshReddy" target="_blank" rel="noopener noreferrer"
+                                class="contact-channel-card">
+                                <div class="channel-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" aria-hidden="true">
+                                        <path
+                                            d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <div class="channel-info">
+                                    <span class="channel-label">GitHub</span>
+                                    <span class="channel-value">github.com/YaramalaGaneshReddy</span>
+                                </div>
+                                <span class="channel-arrow" aria-hidden="true">&rarr;</span>
+                            </a>
+
+                            <!-- Email Placeholder per specification -->
+                            <div class="contact-channel-card placeholder-card">
+                                <div class="channel-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" aria-hidden="true">
+                                        <path
+                                            d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                                        </path>
+                                        <polyline points="22,6 12,13 2,6"></polyline>
+                                    </svg>
+                                </div>
+                                <div class="channel-info">
+                                    <span class="channel-label">Email (Placeholder)</span>
+                                    <span class="channel-value">yaramalaganeshreddy23@gmail.com</span>
+                                </div>
+                                <span class="placeholder-tag">To be updated</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contact Message Form -->
+                    <div class="contact-form-wrapper">
+                        <h3 class="contact-panel-title">Send a Message</h3>
+                        <form id="contact-form" class="contact-form" novalidate>
+                            <div class="form-group">
+                                <label for="name" class="form-label">Your Name</label>
+                                <input type="text" id="name" name="name" class="form-input" placeholder="e.g. Jane Doe"
+                                    required>
+                                <span class="form-error" id="name-error">Please enter your name.</span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email" class="form-label">Your Email</label>
+                                <input type="email" id="email" name="email" class="form-input"
+                                    placeholder="e.g. jane@example.com" required>
+                                <span class="form-error" id="email-error">Please enter a valid email address.</span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message" class="form-label">Your Message</label>
+                                <textarea id="message" name="message" rows="4" class="form-textarea"
+                                    placeholder="Write your message here..." required></textarea>
+                                <span class="form-error" id="message-error">Please enter a message.</span>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-submit">
+                                <span>Send Message</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" aria-hidden="true">
+                                    <line x1="22" y1="2" x2="11" y2="13"></line>
+                                    <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                                </svg>
+                            </button>
+
+                            <div id="form-feedback" class="form-feedback" role="status" aria-live="polite"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container footer-container">
+            <div class="footer-top">
+                <a href="#home" class="logo footer-logo">
+                    <span class="logo-text">Ganesh<span class="logo-dot">.</span></span>
+                </a>
+                <p class="footer-tagline">Building modern web applications and exploring intelligent solutions.</p>
+                <div class="footer-socials">
+                    <a href="https://github.com/YaramalaGaneshReddy" target="_blank" rel="noopener noreferrer"
+                        aria-label="GitHub Profile">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            aria-hidden="true">
+                            <path
+                                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                            </path>
+                        </svg>
+                    </a>
+                    <a href="https://www.linkedin.com/in/ganesh-reddy-yaramala-495189356/" target="_blank"
+                        rel="noopener noreferrer" aria-label="LinkedIn Profile">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            aria-hidden="true">
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                            </path>
+                            <rect x="2" y="9" width="4" height="12"></rect>
+                            <circle cx="4" cy="4" r="2"></circle>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-divider"></div>
+            <div class="footer-bottom">
+                <p class="copyright">&copy; <span id="current-year">2026</span> Ganesh Reddy Yaramala. All rights
+                    reserved.</p>
+                <p class="footer-note">Crafted with pure HTML, CSS, and Vanilla JavaScript.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
